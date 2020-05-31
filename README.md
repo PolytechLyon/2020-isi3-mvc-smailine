@@ -1,6 +1,6 @@
 # ISI3 - MVP design pattern - "Game of Life"
 
-> Le rapport est à fournir dans ce document sous chacune des questions. 
+> Le rapport est à fournir dans ce document sous chacune des questions.
 > **Ne restez pas bloqués bêtement, demander de l'aide**
 > Ne copier pas le code de votre voisin, ça se voit.
 
@@ -17,12 +17,12 @@ Il est inventé par [John Horton Conway](https://fr.wikipedia.org/wiki/John_Hort
 
 ## Avant-propos
 
-1. Expliquer le design pattern MVC à l'aide d'un schéma à insérer directement ici. 
-Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, pas un de ceux qu'on peut trouver sur le net.
+1. Expliquer le design pattern MVC à l'aide d'un schéma à insérer directement ici.
+   Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, pas un de ceux qu'on peut trouver sur le net.
 
 2. Expliquer ce pattern à l'aide en complétant ce texte.
 
-Le pattern MVP, vise à découper le `.......`, de la `.......` et du `.......` afin de rendre le code plus `.......`.
+Le pattern MVP, vise à découper le `controleur`, de la `.......` et du `.......` afin de rendre le code plus `.......`.
 Les responsabilités ne sont alors plus `.......`.
 On peut ainsi changer l'aspect visuel de sont application sans pour autant impacter le `.......`.
 

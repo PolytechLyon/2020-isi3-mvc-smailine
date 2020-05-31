@@ -6,7 +6,7 @@ import { controller } from "./gameOfLife/controller.js";
 initView();
 
 const model = new Model();
+model.init();
 
 drawGame(model);
-model.init();
 controller(model);
