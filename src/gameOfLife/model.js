@@ -106,12 +106,12 @@ export class Model {
     return exist;
   }
 
-  fonctionDrawGame(observer) {
-    this.listeObserver.push(observer);
+  subscribe(fn) {
+    this.listeObserver.push(fn);
   }
 
   updated() {
     // TODO update the view
-    this.listeObserver.forEach(observer => observer(this));
+    this.listeObserver.forEach(subcriber => subcriber(this));
   }
 }
