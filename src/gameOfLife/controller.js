@@ -1,6 +1,6 @@
 import { drawGame } from "./view";
 export const controller = model => {
-  model.fonctionDrawGame(drawGame);
+  model.subscribe(drawGame);
   document.getElementById("start").addEventListener("click", () => {
     model.run();
   });
